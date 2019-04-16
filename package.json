@@ -1,0 +1,19 @@
+{
+  "name": "create-weaveworld-app",
+  "version": "0.12.190416",
+  "description": "Web application w Weaveworld",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Weaveworld", "WebDevelopment"
+  ],
+  "author": {
+    "name": "Cs. Veg",
+    "email": "cs.veg@weaveworld.org"
+  },
+  "license": "For create-weaveworld-app: MIT. For Weaveworld: SEE LICENSE IN 'public/LICENSE' file",
+  "homepage": "https://github.com/weaveworld/Weaveworld#readme",
+  "dependencies": {}
+}
