@@ -4,16 +4,14 @@ const bodyParser = require('body-parser');
 app.listen(3000);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-console.log('API server started');
+console.log('Server started: http://localhost:3000');
 
 const weaveworld=require('weaveworld');
 weaveworld.dir=__dirname+'/public';
 app.all('/*',weaveworld.route);    
 
-/*
-weaveworld.op('hello').then((o)=>({message:'Hello '+(o.name||'World')+'!'}));
-*/
 
+weaveworld.op('hello').then((o)=>({message:'Hello '+(o.name||'World')+'!'}));
 
 /*
 const mysql = require('mysql'), connection = mysql.createConnection({

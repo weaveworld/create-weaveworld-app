@@ -3,11 +3,10 @@
   "version": "0.12.190416",
   "description": "Web application w Weaveworld",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "scripts": {},
   "keywords": [
-    "Weaveworld", "WebDevelopment"
+    "Weaveworld",
+    "WebDevelopment"
   ],
   "author": {
     "name": "Cs. Veg",
