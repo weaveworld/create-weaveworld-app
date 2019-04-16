@@ -2,8 +2,8 @@
 
 Create [Weaveworld](https://github.com/weaveworld/Weaveworld) apps on [Node.js](https://nodejs.org) and [Express](https://expressjs.com/).
 
-_License for weaveworld Node.js module: MIT._  
-_License for Weaveworld: see 'public/LICENSE' file or [here](https://github.com/weaveworld/Weaveworld/blob/master/LICENSE)._
+_License for create-weaveworld-app Node.js module: MIT._  
+_License for Weaveworld: [see](https://github.com/weaveworld/Weaveworld/blob/master/LICENSE)._
  
 Usage:
 ```sh
