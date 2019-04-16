@@ -7,9 +7,9 @@ _License for Weaveworld: [see](https://github.com/weaveworld/Weaveworld/blob/mas
  
 Usage:
 ```sh
-npx create-weaveworld-app w-app
+npm init weaveworld-app w-app
 cd w-app
-npm start
+node app.js
 ```
 
 After that, open http://localhost:3000/, and edit files in the `w-app` and `w-app/public` folder.
