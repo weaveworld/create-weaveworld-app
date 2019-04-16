@@ -3,7 +3,9 @@
   "version": "0.12.190417",
   "description": "Web application w Weaveworld",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "create-weaveworld-app": "node index.js"
+  },
   "keywords": [
     "Weaveworld",
     "WebDevelopment"
