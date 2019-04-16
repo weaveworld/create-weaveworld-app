@@ -1,6 +1,6 @@
 {
   "name": "create-weaveworld-app",
-  "version": "0.12.190417",
+  "version": "0.12.190418",
   "description": "Web application w Weaveworld",
   "main": "index.js",
   "scripts": {
