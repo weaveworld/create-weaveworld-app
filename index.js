@@ -33,8 +33,10 @@ fs.writeFileSync(path.resolve(dir,f='app.js'), fs.readFileSync(__dirname+'/resou
 fs.writeFileSync(path.resolve(dirP,f='index.html'), fs.readFileSync(__dirname+'/resource/public/'+f));
 fs.writeFileSync(path.resolve(dirP,f='index.js'), fs.readFileSync(__dirname+'/resource/public/'+f));
 
-execSync('npm install express',{cwd:dir}),
-execSync('npm install body-parser',{cwd:dir}),
-execSync('npm install weaveworld',{cwd:dir})
+execSync('npm install',{cwd:dir}),
 
 console.log('Weaveworld app created in '+dir);
+console.log('Usage:');
+console.log(' cd '+dir)
+console.log(' node app.js');
+console.log('And open http://localhost:3000');
