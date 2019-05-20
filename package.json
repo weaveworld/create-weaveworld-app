@@ -1,14 +1,13 @@
 {
   "name": "create-weaveworld-app",
-  "version": "0.12.190418",
+  "version": "0.14.190517",
   "description": "Web application w Weaveworld",
   "main": "index.js",
   "scripts": {
     "create-weaveworld-app": "node index.js"
   },
   "keywords": [
-    "Weaveworld",
-    "WebDevelopment"
+    "WebDevelopment", "Weaveworld"    
   ],
   "author": {
     "name": "Cs. Veg",
